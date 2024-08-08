@@ -42,6 +42,7 @@ def combine_foods():
     meal = []
     for food in foods:
         meal.append(food)
+    return meal
      
     # your code here
 
@@ -55,7 +56,7 @@ print('Exercise 2:', combine_foods())
 
 def slice_foods():
     foods = ['Brocoli', 'Banana', 'Chocolat']
-    last_two_foods = foods[-2:]
+    last_two_foods = tuple(foods[-2:])
     return last_two_foods
 
 # Call the function and print the result

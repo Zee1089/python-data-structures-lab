@@ -70,9 +70,9 @@ print('Exercise 3:', slice_foods())
 
 def hometown_info():
     home_town ={
-        'city': 'NY',
-        'state': 'NY',
-        'population': '8,775,234'
+        'city': 'Paris',
+        'state': 'France',
+        'population': '63 millions'
     }
 
     home_town_message = f"I was born in {home_town['city']}, {home_town['state']} population of {home_town['population']}"
